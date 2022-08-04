@@ -29,5 +29,12 @@ namespace DialogueSystem
 
         public string CharName => charName;
         public bool IsCharacterLookingLeftByDefault => isCharacterLookingLeftByDefault;
+        public Sprite CharDefaultImage => charImage;
+
+        #region Mood Properties
+        public Sprite CharImageNatural => charImageNatural;
+        public Sprite CharImageHappy => charImageHappy;
+        public Sprite CharImageAngry => charImageAngry;
+        #endregion
     }
 }
