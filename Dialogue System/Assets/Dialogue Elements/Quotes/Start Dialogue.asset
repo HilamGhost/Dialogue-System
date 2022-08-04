@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ebb88203ff6bb94aa7a3086032cadce, type: 3}
+  m_Name: Start Dialogue
+  m_EditorClassIdentifier: 
+  quoteList:
+  - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
+    characterMood: 0
+    quote: There is no way out! Can you look from the above the tree?
+    isCharacterLookingLeft: 0
+  - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
+    characterMood: 0
+    quote: What a drag. I don't want to.
+    isCharacterLookingLeft: 1
+  - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
+    characterMood: 2
+    quote: WHAT!? AREN'T YOU ELF?
+    isCharacterLookingLeft: 0
+  - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
+    characterMood: 1
+    quote: You are elf too.
+    isCharacterLookingLeft: 1
+  - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
+    characterMood: 1
+    quote: You are right
+    isCharacterLookingLeft: 1
+  - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
+    characterMood: 0
+    quote: '*Climbs a long tree*'
+    isCharacterLookingLeft: 1
+  - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
+    characterMood: 0
+    quote: Did you see anything?
+    isCharacterLookingLeft: 0
+  - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
+    characterMood: 0
+    quote: 'Only Your Ugly Face.
+
+'
+    isCharacterLookingLeft: 1
+  - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
+    characterMood: 2
+    quote: 'DON''T MESS WITH ME YOU BASTARD!
+
+'
+    isCharacterLookingLeft: 0
+  - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
+    characterMood: 1
+    quote: 'Just kidding! I saw the road. Let''s go.
+
+'
+    isCharacterLookingLeft: 1
+  - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
+    characterMood: 0
+    quote: '...
+
+'
+    isCharacterLookingLeft: 0
