@@ -15,7 +15,18 @@ namespace DialogueSystem
         public string quote;
         [Space]
         public bool isCharacterLookingLeft; // If is false player is looking RIGHT
+        [Header("Custom Things")]
+        public float quoteDelay;
+        [Space]
+        public bool hasCustomSFX;
+        public AudioClip customQuoteSFX;
+        [Space]
+        public bool hasCustomPortrait;
+        public Sprite customQuotePortrait;
         
+        [Header("Additional Things")]
+        public AudioClip additionalCustomSFX;
+
 
     }
 }

@@ -15,6 +15,8 @@ MonoBehaviour:
   charImage: {fileID: 21300000, guid: e8a2d2934b1f6234f8f8360397548289, type: 3}
   charName: Leina
   isCharacterLookingLeftByDefault: 1
+  characterSounds:
+  - {fileID: 8300000, guid: 7c5f58d2aef48b24ba7d3b23c66fbf3a, type: 3}
   charImageNatural: {fileID: 21300000, guid: e8a2d2934b1f6234f8f8360397548289, type: 3}
   charImageHappy: {fileID: 21300000, guid: 9403d0a60ebc55f419f64c8311a1ea01, type: 3}
   charImageAngry: {fileID: 21300000, guid: cdfef3924262bc149bb23a29a9a11e19, type: 3}

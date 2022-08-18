@@ -17,51 +17,117 @@ MonoBehaviour:
     characterMood: 0
     quote: There is no way out! Can you look from the above the tree?
     isCharacterLookingLeft: 0
+    quoteDelay: 0
+    hasCustomSFX: 0
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 0
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
   - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
     characterMood: 0
     quote: What a drag. I don't want to.
     isCharacterLookingLeft: 1
+    quoteDelay: 0
+    hasCustomSFX: 0
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 0
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
   - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
     characterMood: 2
     quote: WHAT!? AREN'T YOU ELF?
     isCharacterLookingLeft: 0
+    quoteDelay: 0
+    hasCustomSFX: 0
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 0
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 8300000, guid: 32fae45a89632ef46addd08a3df4a627, type: 3}
   - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
     characterMood: 1
     quote: You are elf too.
     isCharacterLookingLeft: 1
+    quoteDelay: 0
+    hasCustomSFX: 0
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 0
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 8300000, guid: 54609f8920fc3c043841044c312b06c7, type: 3}
   - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
     characterMood: 1
     quote: You are right
     isCharacterLookingLeft: 1
+    quoteDelay: 0
+    hasCustomSFX: 0
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 0
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
   - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
     characterMood: 0
     quote: '*Climbs a long tree*'
     isCharacterLookingLeft: 1
+    quoteDelay: 0
+    hasCustomSFX: 1
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 1
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
   - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
     characterMood: 0
     quote: Did you see anything?
     isCharacterLookingLeft: 0
+    quoteDelay: 0
+    hasCustomSFX: 0
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 0
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
   - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
     characterMood: 0
     quote: 'Only Your Ugly Face.
 
 '
     isCharacterLookingLeft: 1
+    quoteDelay: 0
+    hasCustomSFX: 0
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 0
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 8300000, guid: f9cd5f1ecb2a6f3489d5560983eeb2b4, type: 3}
   - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
     characterMood: 2
     quote: 'DON''T MESS WITH ME YOU BASTARD!
 
 '
     isCharacterLookingLeft: 0
+    quoteDelay: 0.2
+    hasCustomSFX: 0
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 0
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
   - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
     characterMood: 1
     quote: 'Just kidding! I saw the road. Let''s go.
 
 '
     isCharacterLookingLeft: 1
+    quoteDelay: 0
+    hasCustomSFX: 0
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 0
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
   - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
     characterMood: 0
     quote: '...
 
 '
     isCharacterLookingLeft: 0
+    quoteDelay: 0
+    hasCustomSFX: 0
+    customQuoteSFX: {fileID: 0}
+    hasCustomPortrait: 0
+    customQuotePortrait: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}

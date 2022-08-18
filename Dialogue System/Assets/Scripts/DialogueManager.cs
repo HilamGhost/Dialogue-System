@@ -22,6 +22,9 @@ namespace DialogueSystem
         [SerializeField] Text quoteText;
         [SerializeField] Image charPortrait;
 
+        [SerializeField] AudioSource dialogueAudioSource;
+        [SerializeField] AudioSource additionalDialogueAudioSource;
+
 
         #region Properties
         public bool IsOpen => isOpen;
@@ -38,16 +41,24 @@ namespace DialogueSystem
         }
         IEnumerator StartDialogue(Quotes quote)
         {
+            var _quoteDelay = delay;
+            if (quote.quoteDelay > 0) _quoteDelay = quote.quoteDelay;
 
             nameText.text = quote.character.CharName;
             SetDialogueImage(quote);
 
+            SoundManager.Instance.PlayOneShot(additionalDialogueAudioSource,quote.additionalCustomSFX);
+            
             isContinuing = true;
+            
             for (int i = 0; i < quote.quote.Length + 1; i++)
             {
                 currentText = quote.quote.Substring(0, i);
-                yield return new WaitForSeconds(delay);
+                SetDialogueSound(quote);
+
+                yield return new WaitForSeconds(_quoteDelay);
             }
+            
             isContinuing = false;
         }
         /// <summary>
@@ -123,6 +134,12 @@ namespace DialogueSystem
                 quoteText.rectTransform.localScale = new Vector3(1, 1, 1);
             }
 
+        }
+
+        void SetDialogueSound(Quotes quote) 
+        {
+            if (currentText.Length > 1 && currentText[currentText.Length - 1] != ' ')
+                SoundManager.Instance.PlayOneShot(dialogueAudioSource, quote.character.CharSoundEffect(quote));
         }
     }
 }
