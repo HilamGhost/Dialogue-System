@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f3cdad954be55468d6a0fcfd6060f8, type: 3}
+  m_Name: "What is Baron\u2019s role in the plan"
+  m_EditorClassIdentifier: 
+  quoteList:
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: "He\u2019s the one who started it all, the first dreamer."
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: He locates and recruits people who dream of the same thing with him.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: Divine remission.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: He works tirelessly day and night to reach the needed amount of soul essence
+      to execute the plan.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 0
+    quote: What's the soul essence?
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: "It\u2019s what\u2019s left of one\u2019s soul once it leaves the body.\r\n"
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: It can only be harvested by using necromancy.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  eventsAfterDialogue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 16430fd34b8ee654fa7052f708b846f7, type: 2}
+        m_TargetAssemblyTypeName: DialogueSystem.DialogueAfterEvents, Assembly-CSharp
+        m_MethodName: PlayNextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: a00b92d389bae7d44b8a081d6bbb0d82, type: 2}
+          m_ObjectArgumentAssemblyTypeName: DialogueSystem.DialogueSO, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

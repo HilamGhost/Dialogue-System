@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f3cdad954be55468d6a0fcfd6060f8, type: 3}
+  m_Name: Bribe1A
+  m_EditorClassIdentifier: 
+  quoteList:
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 1
+    quote: "I\u2019ve heard some rumors about the things going on inside the castle
+      and about the baron."
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 2
+    quote: I might have an offer that might be of your interest depending on their
+      fidelity.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: "I\u2019m listening."
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 2
+    quote: "I heard about this grand plan, actually I\u2019ve dreamt about it, a
+      plan to cleanse every citizen of this kingdom from their sins."
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: Wait, you see the dreams too?
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 0
+    quote: Yes, I do.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: You have my attention, keep going.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 0
+    quote: "Correct me if I\u2019m wrong, this plan includes the art of necromancy
+      doesn\u2019t it?"
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: 'Yes, how do you know all these?
+
+'
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 0
+    quote: Sweet, then my offer is exactly what you need.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 0
+    quote: A friend of mine works the weekly cadaver wagon shift at the Eastlawn
+      cemetery.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 0
+    quote: He brings in a fresh load of corpses every sunday.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 0
+    quote: 'I can hook you up with a new pile of corpses every week to help with
+      your plan '
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 0
+    quote: "However you\u2019ll have to grant me access into the castle and give
+      me more information about this plan of the baron\u2019s."
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0b957c09fef298143ab80214e5a88365, type: 2}
+    characterMood: 0
+    quote: "I wouldn\u2019t sleep on that deal if I were you."
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: Hmm, that would help a lot with the final stages of the plan.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: Okay, deal accepted.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  - character: {fileID: 11400000, guid: bb7cd42a85a525c458bc7de47352cedf, type: 2}
+    characterMood: 0
+    quote: Tell me what you want to know about the plan.
+    quoteDelay: 0
+    customQuoteSFX: {fileID: 0}
+    additionalCustomSFX: {fileID: 0}
+  eventsAfterDialogue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 16430fd34b8ee654fa7052f708b846f7, type: 2}
+        m_TargetAssemblyTypeName: DialogueSystem.DialogueAfterEvents, Assembly-CSharp
+        m_MethodName: WriteDebugMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: It Works! 1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 16430fd34b8ee654fa7052f708b846f7, type: 2}
+        m_TargetAssemblyTypeName: DialogueSystem.DialogueAfterEvents, Assembly-CSharp
+        m_MethodName: PlayNextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 2e4d27a535802bc41abbdb74fedd7345, type: 2}
+          m_ObjectArgumentAssemblyTypeName: DialogueSystem.DialogueSO, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
