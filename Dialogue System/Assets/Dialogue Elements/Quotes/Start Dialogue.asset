@@ -15,7 +15,7 @@ MonoBehaviour:
   quoteList:
   - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
     characterMood: 0
-    quote: There is no way out! Can you look from the [emotion= above]tree?
+    quote: There is no way out! [delay= 15] Can you look from the [anger= above]tree?
     characterPlacement: 1
     quoteDelay: 0
     hasCustomSFX: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
     additionalCustomSFX: {fileID: 0}
   - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
     characterMood: 0
-    quote: What a drag. I don't want to.
+    quote: What a [anger= drag]. I don't want to.
     characterPlacement: 0
     quoteDelay: 0
     hasCustomSFX: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
     additionalCustomSFX: {fileID: 0}
   - character: {fileID: 11400000, guid: c00ac0a2bc8eeb544a6085b6737d5b76, type: 2}
     characterMood: 2
-    quote: WHAT!? AREN'T YOU ELF?
+    quote: '[anger= WHAT!? AREN''T YOU ELF?]'
     characterPlacement: 0
     quoteDelay: 0
     hasCustomSFX: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
     additionalCustomSFX: {fileID: 8300000, guid: 32fae45a89632ef46addd08a3df4a627, type: 3}
   - character: {fileID: 11400000, guid: 463797b49c6bcdd40adb840ba5da4dd5, type: 2}
     characterMood: 1
-    quote: You are elf too.
+    quote: You are [anger= elf] too. Young [anger= elf!]
     characterPlacement: 0
     quoteDelay: 0
     hasCustomSFX: 0
