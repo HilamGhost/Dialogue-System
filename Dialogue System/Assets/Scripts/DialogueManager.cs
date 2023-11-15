@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,29 +19,33 @@ namespace DialogueSystem
         [Header("UI")]
         [SerializeField] GameObject dialogueGO;
         [SerializeField] Image dialogueBG;
-        [SerializeField] Text nameText;
-        [SerializeField] Text quoteText;
+        [SerializeField] TextMeshProUGUI nameText;
+        [SerializeField] TextMeshProUGUI quoteText;
         [SerializeField] Image charPortrait;
 
         [SerializeField] AudioSource dialogueAudioSource;
         [SerializeField] AudioSource additionalDialogueAudioSource;
 
+        [SerializeField] private List<string> emotionWords;
+        [SerializeField] private List<string> clearQuote;
+
 
         #region Properties
         public bool IsOpen => isOpen;
         #endregion
-
-
-        private void Start()
-        {
-
-        }
+        
+        
         private void Update()
         {
             quoteText.text = currentText;
         }
         IEnumerator StartDialogue(Quotes quote)
         {
+            emotionWords = quote.quote.GetQuoteEmotions();
+            clearQuote = quote.quote.GetClearText(emotionWords); 
+            var clearTextList = quote.quote.GetClearText(emotionWords); 
+            
+            
             var _quoteDelay = delay;
             if (quote.quoteDelay > 0) _quoteDelay = quote.quoteDelay;
 
@@ -50,17 +55,29 @@ namespace DialogueSystem
             SoundManager.Instance.PlayOneShot(additionalDialogueAudioSource,quote.additionalCustomSFX);
             
             isContinuing = true;
-            
-            for (int i = 0; i < quote.quote.Length + 1; i++)
+            for (int i = 0; i < clearTextList.Count; i++)
             {
-                currentText = quote.quote.Substring(0, i);
-                SetDialogueSound(quote);
+                string _nextWord = clearTextList[i];
+               
+                if (_nextWord.HasWordGotEmotion(emotionWords))
+                {
+                    currentText += _nextWord.AddColor(Color.red);
+                    SetDialogueSound(quote);
+                    continue;
+                }
+                
+                for (int j = 0; j < _nextWord.Length; j++)
+                {
+                    currentText += _nextWord[j];
+                    SetDialogueSound(quote);
 
-                yield return new WaitForSeconds(_quoteDelay);
+                    yield return new WaitForSeconds(_quoteDelay);
+                }
+
             }
-            
             isContinuing = false;
         }
+        
         /// <summary>
         /// Starts the Dialogue on UI
         /// </summary>

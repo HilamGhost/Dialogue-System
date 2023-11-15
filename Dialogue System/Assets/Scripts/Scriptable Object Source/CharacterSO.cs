@@ -28,10 +28,10 @@ namespace DialogueSystem
             {
                 switch (_currentQuote.characterMood)
                 {
-                    default: Debug.LogError("THERE IS NO MOOD"); return null; break;
-                    case CharacterMood.Natural: return charImageNatural; break;
-                    case CharacterMood.Happy: return charImageHappy; break;
-                    case CharacterMood.Angry: return charImageAngry; break;
+                    default: Debug.LogError("THERE IS NO MOOD"); return null;
+                    case CharacterMood.Natural: return charImageNatural; 
+                    case CharacterMood.Happy: return charImageHappy; 
+                    case CharacterMood.Angry: return charImageAngry; 
                 }
             }         
         }

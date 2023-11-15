@@ -13,8 +13,20 @@ namespace DialogueSystem
         [Space(2)]
         [TextArea]
         public string quote;
-        [Space]
-        public bool isCharacterLookingLeft; // If is false player is looking RIGHT
+
+        [Space] 
+        [SerializeField] CharacterPlacement characterPlacement;
+        public bool isCharacterLookingLeft
+        {
+            get
+            {
+                return characterPlacement == CharacterPlacement.Left;
+            }
+            private set
+            {
+                
+            }
+        } // If is false player is looking RIGHT
         [Header("Custom Things")]
         public float quoteDelay;
         [Space]
@@ -29,4 +41,5 @@ namespace DialogueSystem
 
 
     }
+    public enum CharacterPlacement{Right,Left}
 }
